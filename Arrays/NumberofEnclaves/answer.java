@@ -1,4 +1,13 @@
 class Solution {
+    /**
+     * @param board
+     * @param total_row
+     * @param total_cols
+     * @param work_row
+     * @param work_col
+     * @param dir
+     * @param visited
+     */
     public void func(int[][] board,int total_row,int total_cols,int work_row,int work_col,int[][] dir,boolean[][] visited)
     {
         for(int i=0;i<dir.length;i++)
