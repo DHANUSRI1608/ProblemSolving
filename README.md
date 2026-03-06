@@ -25,7 +25,7 @@ Each solution focuses on writing **clean, readable, and optimized code** while m
 ## 🛠 Tech Stack
 
 * **Language:** Java
-* **Platform:** LeetCode
+* **Platform:** LeetCode , GeeksForGeeks
 * **Concepts:** Data Structures and Algorithms
 
 
