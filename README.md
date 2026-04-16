@@ -1,4 +1,4 @@
-# 🚀 LeetCode Problem Solving Repository
+# LeetCode Problem Solving Repository
 
 This repository contains my solutions to various **LeetCode problems** that I solved while practicing **Data Structures and Algorithms**.
 
@@ -27,23 +27,5 @@ Each solution focuses on writing **clean, readable, and optimized code** while m
 * **Language:** Java
 * **Platform:** LeetCode , GeeksForGeeks
 * **Concepts:** Data Structures and Algorithms
-
-
-## 🎯 Goal of This Repository
-
-* Improve problem-solving skills
-* Practice core data structures and algorithms
-* Prepare for technical interviews
-* Maintain a structured record of solved problems
-
-
-
-## 📌 Notes
-
-Solutions are organized into folders based on the **problem name or concept** for easier navigation.
-
-More problems and optimized approaches will be added as I continue solving new challenges.
-
----
 
 ⭐ If you find this repository useful, feel free to **star the repository**.
