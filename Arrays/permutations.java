@@ -1,3 +1,7 @@
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+
 class Solution {
     List<List<Integer>> result = new ArrayList<>();
 
