@@ -1,8 +1,7 @@
-package Arrays.LongestCommonPrefix;
-
-public class answer {
+class LongestCommonPrefix {
     public String longestCommonPrefix(String[] strs) {
-        if (strs == null || strs.length == 0) return "";
+        if (strs == null || strs.length == 0)
+            return "";
         String prefix = strs[0];
         for (String str : strs)
             while (str.indexOf(prefix) != 0)

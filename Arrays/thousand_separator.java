@@ -1,8 +1,6 @@
-package Arrays.Thousand_Separator;
-
 import java.util.*;
 
-public class Solution {
+class ThousandSeparator {
     public String thousandSeparator(int n) {
         String s = String.valueOf(n);
         StringBuilder result = new StringBuilder();
@@ -18,13 +16,17 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in); 
-        System.out.print("Enter a number: "); 
-        int n = sc.nextInt();             
+        Scanner sc = new Scanner(System.in);
+        try {
+            System.out.print("Enter a number: ");
+            int n = sc.nextInt();
 
-        Solution obj = new Solution();
-        String output = obj.thousandSeparator(n);
+            ThousandSeparator obj = new ThousandSeparator();
+            String output = obj.thousandSeparator(n);
 
-        System.out.println("Formatted Output: " + output);
+            System.out.println("Formatted Output: " + output);
+        } finally {
+            sc.close();
+        }
     }
 }

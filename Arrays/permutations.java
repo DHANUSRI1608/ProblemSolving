@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 
-class Solution {
+class Permutations {
     List<List<Integer>> result = new ArrayList<>();
 
     public void permute(int[] nums, int index) {
@@ -14,11 +14,12 @@ class Solution {
             result.add(div);
             return;
         }
- 
+
         HashSet<Integer> set = new HashSet<>();
 
         for (int i = index; i < nums.length; i++) {
-            if (set.contains(nums[i])) continue; 
+            if (set.contains(nums[i]))
+                continue;
 
             set.add(nums[i]);
 

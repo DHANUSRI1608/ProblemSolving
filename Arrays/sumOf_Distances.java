@@ -1,6 +1,6 @@
 import java.util.HashMap;
 
-class Solution {
+class SumOfDistances {
     public long[] distance(int[] nums) {
         int n = nums.length;
         long[] arr = new long[n];

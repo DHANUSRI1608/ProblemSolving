@@ -1,8 +1,6 @@
-package Arrays.Arranging_Colors;
-
 import java.util.*;
 
-public class Solution {
+class ArrangingColors {
     public static int minCost(String colors, int[] neededTime) {
         int sum = 0;
         for (int i = 1; i < colors.length(); i++) {
@@ -18,20 +16,24 @@ public class Solution {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        try {
 
-        System.out.print("Enter colors string (e.g., aabaa): ");
-        String colors = sc.nextLine();
+            System.out.print("Enter colors string (e.g., aabaa): ");
+            String colors = sc.nextLine();
 
-        System.out.print("Enter number of elements in neededTime: ");
-        int n = sc.nextInt();
+            System.out.print("Enter number of elements in neededTime: ");
+            int n = sc.nextInt();
 
-        int[] neededTime = new int[n];
-        System.out.println("Enter " + n + " time values:");
-        for (int i = 0; i < n; i++) {
-            neededTime[i] = sc.nextInt();
+            int[] neededTime = new int[n];
+            System.out.println("Enter " + n + " time values:");
+            for (int i = 0; i < n; i++) {
+                neededTime[i] = sc.nextInt();
+            }
+
+            int result = minCost(colors, neededTime);
+            System.out.println("Minimum total time to remove balloons: " + result);
+        } finally {
+            sc.close();
         }
-
-        int result = minCost(colors, neededTime); 
-        System.out.println("Minimum total time to remove balloons: " + result);
     }
 }

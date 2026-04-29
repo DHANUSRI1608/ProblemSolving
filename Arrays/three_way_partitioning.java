@@ -1,4 +1,4 @@
-class Solution {
+class ThreeWayPartitioning {
     public void threeWayPartition(int[] arr, int a, int b) {
 
         int low = 0, mid = 0, high = arr.length - 1;
@@ -9,12 +9,10 @@ class Solution {
                 swap(arr, low, mid);
                 low++;
                 mid++;
-            }
-            else if (arr[mid] > b) {
+            } else if (arr[mid] > b) {
                 swap(arr, mid, high);
                 high--;
-            }
-            else {
+            } else {
                 mid++;
             }
         }
