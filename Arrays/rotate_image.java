@@ -1,5 +1,5 @@
 import java.util.*;
-class Solution {
+class rotate_image {
     public void rotate(int[][] matrix) {
         for(int i=0;i<matrix.length;i++)
         {

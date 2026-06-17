@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Solut {
+public class separateDigits{
     public int[] separateDigits(int[] nums) { 
         List<Integer> arr = new ArrayList<>();
         for (int i=0;i<nums.length;i++) {

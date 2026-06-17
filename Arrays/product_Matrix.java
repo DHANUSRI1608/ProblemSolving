@@ -1,5 +1,5 @@
-
-class Solution {
+import java.util.*;
+class product_Matrix {
 
     public int[][] constructProductMatrix(int[][] grid) {
         final int MOD = 12345;

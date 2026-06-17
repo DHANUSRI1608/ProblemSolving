@@ -1,5 +1,5 @@
 import java.util.*;
-class Solution {
+class decompress_RunLength {
     public int[] decompressRLElist(int[] nums) {
     ArrayList<Integer> list=new ArrayList<>();
     for(int i=1;i<nums.length;i++){

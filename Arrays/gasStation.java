@@ -1,5 +1,5 @@
 import java.util.*;
-class Solution {
+class gasStation {
     public int canCompleteCircuit(int[] gas, int[] cost) {
         int sGas = 0, sCost = 0, res = 0, t = 0;
         for (int i = 0; i < gas.length; i++) {
