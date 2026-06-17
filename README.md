@@ -26,8 +26,4 @@ Each solution focuses on writing **clean, readable, and optimized code** while m
 - **Platform:** LeetCode , GeeksForGeeks
 - **Concepts:** Data Structures and Algorithms
 
-## ✅ Repository Improvements
-
-For consistent code quality and best practices across all solution files, see `RECOMMENDATIONS.md`.
-
 ⭐ If you find this repository useful, feel free to **star the repository**.
