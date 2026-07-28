@@ -1,4 +1,4 @@
-class Solution {
+class Ant_on_the_Boundary {
     public int returnToBoundaryCount(int[] nums) {
         int count=0,sum=0;
        for(int i=0;i<nums.length;i++) 

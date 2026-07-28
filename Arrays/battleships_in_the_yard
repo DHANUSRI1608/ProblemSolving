@@ -1,4 +1,4 @@
-class Solution {
+class battleships_in_the_yard {
     public void battleships(char[][] board,int[][] dir,boolean[][] visited,int work_row,int work_col,int total_rows,int total_cols)
     {
         for(int i=0;i<dir.length;i++)
