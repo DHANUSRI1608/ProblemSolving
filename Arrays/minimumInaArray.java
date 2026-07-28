@@ -1,4 +1,4 @@
-class Solution {
+class minimumInaArray {
     public int minimumInaArray(int[] nums) {
         int l = 0;
         int r = nums.length - 1;

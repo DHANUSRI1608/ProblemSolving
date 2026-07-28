@@ -1,5 +1,5 @@
 import java.util.*;
-class Solution {
+class rotatingtheBox {
     public char[][] rotateTheBox(char[][] boxGrid) {
         int rows = boxGrid[0].length;
         int cols = boxGrid.length;

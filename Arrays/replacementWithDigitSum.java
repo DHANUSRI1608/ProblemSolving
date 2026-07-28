@@ -1,5 +1,5 @@
 import java.util.*;
-class Solution {
+class replacementWithDigitSum {
     public static int sum(int n)
     {
         int sum=0;

@@ -1,4 +1,4 @@
-class Solution {
+class adjacentDigitsDifference {
     public boolean isAdjacentDiffAtMostTwo(String s) {
         if(s.length()==1)return false;
         for(int i=0;i<s.length()-1;i++)
