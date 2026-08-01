@@ -7,7 +7,7 @@ class ArrangingColors {
             if (colors.charAt(i) == colors.charAt(i - 1)) {
                 sum += Math.min(neededTime[i], neededTime[i - 1]);
                 if (neededTime[i] < neededTime[i - 1]) {
-                    neededTime[i] = neededTime[i - 1];
+                    neededTime[i] = neededTime[i - 1]; 
                 }
             }
         }
