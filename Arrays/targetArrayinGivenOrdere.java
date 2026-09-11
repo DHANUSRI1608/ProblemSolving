@@ -1,5 +1,5 @@
 import java.util.*;
-class Solution {
+class targetArrayinGivenOrdere {
     public static void swap(int[] ans,int start,int size)
     {
         for(int i=size-1;i>start;i--)
