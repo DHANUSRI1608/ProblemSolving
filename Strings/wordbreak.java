@@ -1,8 +1,5 @@
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
-
-class Solution {
+import java.util.*;
+class wordbreak {
     public boolean wordBreak(String s, List<String> wordDict) {
         return recWay1(s, wordDict);
     }

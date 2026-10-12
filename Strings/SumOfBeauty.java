@@ -1,9 +1,8 @@
-package Strings.SumOfBeauty;
 import java.util.*;
-public class answer {
+public class SumOfBeauty {
     static int sum = 0;  // make sum static
 
-    public static void answer(String s, int start, int end) {
+    public static void addBeauty(String s, int start, int end) {
         int freq[] = new int[26];
         for (int i = start; i <= end; i++) {
             freq[s.charAt(i) - 'a']++;
@@ -27,21 +26,19 @@ public class answer {
         sum = 0; // reset before each call
         for (int i = 0; i < s.length(); i++) {
             for (int j = i; j < s.length(); j++) {
-                answer(s, i, j);
+                addBeauty(s, i, j);
             }
         }
         return sum;
     }
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.print("Enter a string: ");
+            String s = sc.nextLine();
 
-        System.out.print("Enter a string: ");
-        String s = sc.nextLine();
-
-        int result = beautySum(s);
-        System.out.println("Beauty Sum: " + result);
+            int result = beautySum(s);
+            System.out.println("Beauty Sum: " + result);
+        }
     }
 }
-
-

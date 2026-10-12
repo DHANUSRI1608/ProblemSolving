@@ -1,8 +1,6 @@
-package Strings.LongestPallindromicSubstring;
+import java.util.*;
 
-import java.util.Scanner;
-
-public class answer{
+public class LongestPallindromicSubstring{
     public static boolean ispallindrome(String s, int left, int right) {
         while (left <= right) {
             if (s.charAt(left) != s.charAt(right)) {

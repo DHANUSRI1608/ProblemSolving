@@ -1,6 +1,6 @@
-package Strings.ReplaceWords;
+
 import java.util.*;
-class Solution {
+class ReplaceWords  {
     /**
      * @param dictionary
      * @param sentence

@@ -1,6 +1,6 @@
-package Strings.RemoveStars;
+import java.util.*;
 
-class Solution {
+class RemoveStars {
     public String removeStars(String s) {
       StringBuilder sb = new StringBuilder();
       for(int i=0;i<s.length();i++)

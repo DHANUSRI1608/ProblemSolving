@@ -1,7 +1,6 @@
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
-class Solution {
+class words_with_two_editsofDictionary {
     public boolean isTrue(String word1,String word2)
     {
         int count=0;
