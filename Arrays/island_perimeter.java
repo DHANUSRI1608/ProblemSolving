@@ -1,4 +1,4 @@
-class Solution {
+class island_perimeter {
     public int islandPerimeter(int[][] grid) {
         int rows = grid.length;
         int cols = grid[0].length;
